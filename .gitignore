@@ -1,0 +1,40 @@
+# Build directories
+build/
+bin/
+out/
+.cache/
+
+# Executables and artifacts
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Test and run outputs
+demo_signals.csv
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
